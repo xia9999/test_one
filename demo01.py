@@ -81,4 +81,3 @@
 # b = len(a)
 # print("输入的字符长度：",b)
 
-print("hello word!")
