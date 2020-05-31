@@ -95,7 +95,9 @@
 # print(9%2)    #求余
 # name=input("请输入你的姓名：")
 # print("请确认你的姓名：",name)
-a=float(input("请输入数字："))
-b=float(input("请输入数字："))
-print("和为：",a+b)
-print(type(a+b))
+# a=float(input("请输入数字："))
+# b=float(input("请输入数字："))
+# print("和为：",a+b)
+# print(type(a+b))
+a=input("请输入：")
+print("你输入的字符长度为：",len(a))
