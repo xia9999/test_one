@@ -81,4 +81,21 @@
 # b = len(a)
 # print("输入的字符长度：",b)
 
-print ("hhhhhh")
+# print ("hhhhhh")
+# print(231)
+# print (2.333)
+# print ((2,3,4))
+# print([3.2])
+# print({3,4})
+# print(True,False)
+# print(None)
+# name="张珊"
+# print("你好!{}".format(name))    #format()格式化字符串，{}站位
+# print(1+2,"1"+"2")
+# print(9%2)    #求余
+# name=input("请输入你的姓名：")
+# print("请确认你的姓名：",name)
+a=float(input("请输入数字："))
+b=float(input("请输入数字："))
+print("和为：",a+b)
+print(type(a+b))
