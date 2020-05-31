@@ -100,4 +100,4 @@
 # print("和为：",a+b)
 # print(type(a+b))
 a=input("请输入：")
-print("你输入的字符长度为：",len(a))
+print("你输入的字符长度为：",len(a))   #len()获取字符长度
