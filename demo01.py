@@ -99,7 +99,31 @@
 # b=float(input("请输入数字："))
 # print("和为：",a+b)
 # print(type(a+b))
-a=input("请输入：")
-print("你输入的字符长度为：",len(a))   #len()获取字符长度
-tuple=(2,6,68)
-print(tuple.index(2))
+# a=input("请输入：")
+# print("你输入的字符长度为：",len(a))   #len()获取字符长度
+
+# tuple=(1,2,5,6,9,2,3,9,2,2,True,False)    #元组不可以修改
+# a=tuple.index(9)
+# print(tuple.count(0))
+# print(tuple[0:2])
+
+
+list=[4,8,2,3]
+list.append(3)
+# list.insert(0,"你是谁")
+# list.remove("你是谁","cd")
+# list.sort()    #排序，升序
+# print(list)
+# list.reverse()   #颠倒
+# print(list)
+# list.sort(reverse=True)   #倒序
+# print(list)
+# a=[2,3,4,1]
+# b=(a)
+# b.append(6)    #元组里的数组可以修改
+# print(b)
+
+dict={"name":"张三","age":16}
+print(dict["name"],dict["age"])
+
+print("\n".join([''.join([('天不生我李淳罡，剑道万古夜长存，剑来'[(x-y)%8]if((x*0.05)**2+(y*0.1)**2-1)**3-(x*0.05)**2*(y*0.1)**3<=0 else' ')for x in range(-30,30)])for y in range(15,-15,-1)]))
